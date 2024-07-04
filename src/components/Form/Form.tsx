@@ -8,6 +8,7 @@ export default function Form() {
         <label htmlFor="city">Ciudad:</label>
         <input id="city" type="text" name="city" placeholder="Ciudad" />
       </div>
+
       <div className={style.field}>
         <label htmlFor="city">Pais:</label>
         <select>
@@ -19,6 +20,7 @@ export default function Form() {
           ))}
         </select>
       </div>
+
       <input className={style.submit} type="submit" value="consultar clima" />
     </form>
   );

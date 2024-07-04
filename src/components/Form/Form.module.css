@@ -8,8 +8,8 @@
 .form select {
   padding: 1rem;
   background-color: transparent;
-  border: 0.3rem solid var (-- white);
-  color: var(-- white);
+  border: 0.3rem solid var(--white);
+  color: var(--white);
   font-size: 1.8 rem;
   font-weight: 400;
   border-radius: 1rem;
@@ -24,4 +24,9 @@
   font-weight: 700;
   font-size: 1.4rem;
   text-transform: uppercase;
+  cursor: pointer;
+  padding: 1rem;
+}
+.form select option {
+  color: black;
 }
